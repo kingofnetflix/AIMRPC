@@ -79,5 +79,4 @@ After copying the application ID, go to where you downloaded AIMRPC, and make/ed
 After that, you are done! Have fun :D
 </p>
 
-
 ---
