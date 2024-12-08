@@ -24,9 +24,9 @@ AIMRPC is a C# Console app offering the ability to showcase your AIM status (vie
 
 ### <p align="center">Setup</p>
 <p align="center">
-First, you need AOL Instant Messenger. You can find that <a href="http://www.oldversion.com/windows/aol-instant-messenger-5-0-2829">here</a> or <a href="https://cdn.discordapp.com/attachments/1308165030541267044/1315165780748402719/aim48.exe?">here if you can not install the first one</a> 
-If you have not already, AOL Instant Messenger does not just "run" after installing. You need to be on custom servers. You can setup one yourself by going to the <a href="https://github.com/mk6i/retro-aim-server">retro-aim-server</a> repository. (i don't know where you'd find public servers. google it, perhaps?)
-Go to the <a href="https://github.com/kingofnetflix/AIMRPC/releases/latest">latest release</a> and download the zip. Once downloaded, unextract it. Then open it. Easy! 🎉
+First, you need AOL Instant Messenger. You can find that <a href="http://www.oldversion.com/windows/aol-instant-messenger-5-0-2829">here</a> or <a href="https://cdn.discordapp.com/attachments/1308165030541267044/1315165780748402719/aim48.exe?">here if you can not install the first one</a><br>
+If you have not already, AOL Instant Messenger does not just "run" after installing. You need to be on custom servers. You can setup one yourself by going to the <a href="https://github.com/mk6i/retro-aim-server">retro-aim-server</a> repository. (i don't know where you'd find public servers. google it, perhaps?)<br>
+Once all that is done, go to the <a href="https://github.com/kingofnetflix/AIMRPC/releases/latest">latest release</a> and download the zip. Once downloaded, unextract it. Then open it. Easy! 🎉
 </p>
 
 ---
