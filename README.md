@@ -15,6 +15,10 @@
 <p align="center">
 AIMRPC is a C# Console app offering the ability to showcase your AIM status (viewing your buddy list, texting a buddy, etc) to Discord using their Rich Presence system. Credits to <a href="https://github.com/Lachee/discord-rpc-csharp">Lachee's C# Discord RPC library</a>
 </p>
+<p align= "center">
+  <img src="https://github.com/user-attachments/assets/cfe958ac-9161-443f-8dc1-fe4d36faae5e">
+  <img src="https://github.com/user-attachments/assets/029f700e-8e5f-497e-ac42-880043242e8c">
+</p>
 
 ---
 
