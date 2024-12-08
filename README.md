@@ -76,7 +76,7 @@ After copying the application ID, go to where you downloaded AIMRPC, and make/ed
 }
 ```
 <p align="center">
-After that, you are done! Have fun :D
+After that, you are done! Have fun! :D
 </p>
 
 ---
