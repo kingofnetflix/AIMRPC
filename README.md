@@ -31,7 +31,7 @@ Go to the <a href="https://github.com/kingofnetflix/AIMRPC/releases/latest">late
 In the zip file you unextracted, there should be a config.json. Go ahead and open it. You should see a file that looks like this:
 </p>
 
-```
+```json
 {
   "application_id": "1214816314170941511",
   "debug_level": "MESSAGE"
@@ -69,7 +69,7 @@ Once you have created your application, go ahead and scroll down until you see t
 After copying the application ID, go to where you downloaded AIMRPC, and make/edit the file config.json. Paste your application ID where it says `application_id`. It should look somewhat like this:
 </p>
 
-```
+```json
 {
   "application_id": "(your application id here)",
   "debug_level": "MESSAGE"
