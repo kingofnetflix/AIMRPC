@@ -18,6 +18,7 @@ AIMRPC is a C# Console app offering the ability to showcase your AIM status (vie
 <p align= "center">
   <img src="https://github.com/user-attachments/assets/cfe958ac-9161-443f-8dc1-fe4d36faae5e">
   <img src="https://github.com/user-attachments/assets/029f700e-8e5f-497e-ac42-880043242e8c">
+  <img src="https://github.com/user-attachments/assets/c9185f66-4804-4032-abe0-f094458b2afc">
 </p>
 
 ---
