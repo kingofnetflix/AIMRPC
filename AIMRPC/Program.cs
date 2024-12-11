@@ -1,4 +1,6 @@
-﻿using AIMRPC.Libs;
+﻿using System.Diagnostics;
+using AIMRPC.Libs;
+using Debug = AIMRPC.Libs.Debug;
 
 namespace AIMRPC
 {
@@ -35,6 +37,9 @@ namespace AIMRPC
                             break;
                         case AIMHandler.State.CHATTING:
                             RPC.UpdatePresence(AIMHandler.ReturnCurrentBuddy(), string.Empty, RPC.aolguy, AIMHandler.screenName, RPC.buddy);
+                            break;
+                        case AIMHandler.State.AWAY:
+                            RPC.UpdatePresence("Away", string.Empty, RPC.awayaolguy, AIMHandler.screenName);
                             break;
                         case AIMHandler.State.PREFERENCES:
                             RPC.UpdatePresence("Looking at Preferences", string.Empty, RPC.aolguy, AIMHandler.screenName);

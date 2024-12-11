@@ -11,6 +11,7 @@ namespace AIMRPC.Libs
         {
             SIGNING_ON,
             CHATTING,
+            AWAY,
             BUDDYLIST,
             PREFERENCES,
             AVAILABLE,
@@ -56,6 +57,11 @@ namespace AIMRPC.Libs
             {
                 foreach (Process child in Process.GetProcessesByName("aim"))
                 {
+                    if (isAway())
+                    {
+                        return State.AWAY;
+                    }
+
                     foreach (var mapping in stateMappings)
                     {
                         if (child.MainWindowTitle.Contains(mapping.Key, StringComparison.OrdinalIgnoreCase))
@@ -74,7 +80,34 @@ namespace AIMRPC.Libs
             return State.NEUTRAL;
         }
 
-       
+        public static bool isAway()
+        {
+            if (IsAIMOpened())
+            {
+                foreach (Process child in Process.GetProcessesByName("aim"))
+                {
+                    foreach (var mapping in stateMappings)
+                    {
+                        if (!child.MainWindowTitle.Contains(mapping.Key, StringComparison.OrdinalIgnoreCase))
+                        {
+                           if (ProcessHandler.getButtonsInWindow(child.MainWindowTitle) != null)
+                            {
+                                string[] buttons = ProcessHandler.getButtonsInWindow(child.MainWindowTitle);
+                                foreach (string button in buttons)
+                                {
+                                    if (button.Contains("I'm Back", StringComparison.OrdinalIgnoreCase))
+                                    {
+                                        return true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                return false;
+            }
+            return false;
+        }
 
         public static string ReturnCurrentBuddy()
         {

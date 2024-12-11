@@ -8,6 +8,7 @@ namespace AIMRPC.Libs
         public static string application_id = "1214816314170941511";
         public static string buddy = "https://i.ibb.co/R4b6vXj/image.png";
         public static string aolguy = "https://i.ibb.co/ZGxx5yq/image.png";
+        public static string awayaolguy = "https://i.ibb.co/cLzbr3c/away.png";
         public static void Init()
         {
             client = new DiscordRpcClient(application_id);
